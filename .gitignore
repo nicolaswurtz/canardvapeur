@@ -1,0 +1,31 @@
+# BACK
+api/vendor/
+api/imports/all_games_cpc.xlsx
+api/imports/all_games_cpc.ser
+api/imports/all_games_cpc_done.ser
+api/imports/all_games_coincoin.json
+api/imports/all_games_steam.ser
+api/steam.json
+api/steam2cpc.json
+api/.env
+api/all_my_games.json
+api/.htaccess
+api/composer.lock
+
+# FRONT
+src/all_my_games.json
+node_modules
+.pnp
+pnp.js
+
+coverage
+build
+
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

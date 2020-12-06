@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: $background;
+  font-weight: normal;
+  color: $primary-text;
+}
+
+a {
+  color: $blue1;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.fork-me-on-github {
+  position: fixed !important;
+  z-index: 2;
+}

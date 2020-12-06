@@ -1,0 +1,93 @@
+.listgames-header {
+  display: flex;
+  position: fixed;
+  top: 1.5rem;
+  align-items: center;
+  padding: .5rem;
+  z-index: 1;
+  background-color: $carbon;
+  width: 100%;
+  @media screen and (max-width: $breakpoint-mobile1) {
+    display: block;
+  }
+  .searchfield {
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    padding: 1rem 1rem;
+    color: $lightgray;
+    background-color: $lightcarbon;
+    font-size: 1rem;
+    height: 1rem;
+    flex-shrink: 2;
+    input {
+      max-width: 10rem;
+      margin-left: 1rem;
+      font-size: 1rem;
+      background-color: transparent;
+      border: none;
+      color: #ccc;
+      border-bottom: 1px solid $lightgray;
+    }
+    @media screen and (max-width: $breakpoint-mobile1) {
+      margin: 0 1rem .5rem 0;
+    }
+  }
+  .info-and-parameters {
+    display: flex;
+    .info-games {
+      margin-left: 1rem;
+      font-size: 1.1rem;
+      color: $secondary-text;
+      font-weight: bold;
+      small {
+        margin-left: .2rem;
+        color: $lightgray;
+      }
+      @media screen and (max-width: $breakpoint-mobile1) {
+        margin-left: 0rem;
+      }
+    }
+  }
+
+  .infos-user {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    .infos-user-exit {
+      display: flex;
+      align-items: center;
+      height: 3rem;
+      border-radius: 4px;
+      padding: .2rem .5rem;
+      color: $secondary-text;
+      background-color: $blue1;
+      font-size: 2rem;
+      border: none;
+      transition: .3s;
+      margin-left: .5rem;
+      cursor: pointer;
+      &:hover {
+        background-color: $darkcarbon;
+      }
+    }
+    .infos-user-nickname {
+      font-size: 1.2rem;
+      text-align: right;
+    }
+    .infos-user-realname {
+      font-size: .8rem;
+      text-align: right;
+    }
+    @media screen and (max-width: $breakpoint-mobile1) {
+      margin-left: 0;
+      margin-top: .5rem;
+      .infos-user-exit {
+        margin: 0 1rem 0 auto;
+      }
+      .infos-user-nickname, .infos-user-realname {
+        text-align: left;
+      }
+    }
+  }
+}

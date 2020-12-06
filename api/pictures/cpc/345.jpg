@@ -1,0 +1,996 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTC-8">
+<title>Le site des anciennes revues informatiques -  www.abandonware-magazines.org</title>
+<meta name="Description" content="Vous découvrirez ou redécouvrirez les magazines de légendes sur les jeux vidéo et l'informatique.">
+<meta name="Keywords" content="magazine, revue, informatique, abandonware, jeux, video">
+<meta name="robots" content="index,follow, ALL">
+<meta NAME="author" CONTENT="Fredo_L">
+<meta HTTP-EQUIV="Reply-to" CONTENT="fred@lankhor.net">
+<META http-equiv="content-language" content="fr">
+<META name="identifier-url" content="http://www.abandonware-magazines.org">
+<META NAME="owner" content="Fredo_L">
+<link REL="SHORTCUT ICON" HREF="/images/favicon.ico">
+
+
+<link href="/lib/default.css" rel="stylesheet" type="text/css">
+<!-- MENU -->
+<!-- link href="/lib/menu2.css" rel="stylesheet" type="text/css" -->
+<link title="Menu déroulant"  rel="stylesheet" href="/lib/menu3.css" type="text/css">
+<!-- MENU -->
+
+<!-- flux rss -->
+<link rel="alternate" type="application/rss+xml" title="News en RSS" href="http://www.abandonware.org/rss.php?site=magazines&info=news&feed=rss"/>
+<link rel="alternate" type="application/rss+xml" title="News en ATOM" href="http://www.abandonware.org/rss.php?site=magazines&info=news&feed=atom"/>
+<link rel="alternate" type="application/rss+xml" title="Commentaires en RSS" href="http://www.abandonware.org/rss.php?site=magazines&info=comments&feed=rss"/>
+<link rel="alternate" type="application/rss+xml" title="Commentaires en ATOM" href="http://www.abandonware.org/rss.php?site=magazines&info=comments&feed=atom"/>
+
+</head>
+
+<body bgcolor="#F6DDC7" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr bgcolor="#F6DDC7"> 
+          
+        <td width="257"><a href="/index.php" title="Retour à l'accueil du site"><img src="/images/titre_mags3.png" width="305" height="79"></a></td>
+          
+
+        <td width="100%"> 
+          <!--Publicite  -->
+          <center>
+
+
+<a href="http://www.abandonware-videos.org" target="_blank"><img
+src="/images_liens/logo_videos.gif" alt="Abandonware Videos"
+border="0" width="468" height="60"></a>            </center>
+            <!--Publicite fin -->
+          </td>
+        </tr>
+      </table>
+
+
+
+
+
+
+
+
+
+		<!-- MENU -->
+
+      <TABLE width="100%" bgcolor="#000000" border="0" cellspacing="1" 
+      cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD height="22" valign="top" bgcolor="#808080">
+            <div id='cssmenu'>
+            <UL>
+
+
+
+
+
+
+              <li class='active has-sub'><A href="#">Informations</A>
+              <UL>
+	<li class='has-sub'><a href="/" title="Retour à l'accueil du site"><img src="/lib/menu/accueil.gif" align=absMiddle>&nbsp;Accueil</a></li>
+	<li class='has-sub'><a href="/projet.php" title="Explication sur les raisons qui ont poussé à la création de ce site"><img src="/lib/menu/vide.gif" align=absMiddle>&nbsp;Projet Magazines</a></li>
+	<li class='has-sub'><a href="/liste.php" title="Pour voir rapidement tous les magazines disponibles sur le site"><img src="/lib/menu/vide.gif" align=absMiddle>&nbsp;Liste des magazines</a></li>
+	<li class='has-sub'><a href="/interviews.php" title="Pour voir les interviews du site"><IMG src="/lib/menu/vide.gif" align=absMiddle>&nbsp;Interviews</a></li>
+	<li class='has-sub'><a  href="/faq.php" title="Si vous vous posez des questions, lisez cette page"><IMG src="/lib/menu/faq.gif" align=absMiddle>&nbsp;FAQ</a></li>
+	<li class='has-sub'><a  href="/utilitaires.php" title="Tout les outils nécessaires"><IMG src="/lib/menu/vide.gif" align=absMiddle>&nbsp;Utilitaires</a></li>
+	<li class='has-sub'><a  href="/liens.php" title="Voir la page des liens"><IMG src="/lib/menu/vide.gif" align=absMiddle>&nbsp;Liens et donateurs</a></li>
+	<li class='has-sub'><a  href="/bonnesadresses.php" title="Voir la page des bonnes adresses"><IMG src="/lib/menu/vide.gif" align=absMiddle>&nbsp;Bonnes adresses</a></li>
+	<li class='has-sub'><a  href="http://forum.abandonware.org" title="Aller sur le forum"><IMG src="/lib/menu/forum.gif" align=absMiddle>&nbsp;Forum</a></li>
+	<li class='has-sub'><a  href="/recherche.php" title="Rechercher le test ou la solution d'un jeu"><IMG src="/lib/menu/vide.gif" align=absMiddle>&nbsp;Moteur de recherche</a></li>
+	<li class='has-sub'><a  href="/mentions.php" title="Nous contacter"><IMG src="/lib/menu/email.gif" align=absMiddle>&nbsp;Nous contacter</a></li>
+	<li class='has-sub'><a  href="/magsinterdits.php" title="Magazines interdits ou censurés"><IMG src="/lib/menu/vide.gif" align=absMiddle>&nbsp;Mags interdits</a></li>
+	<li class='has-sub'><a  href="/historique.php" title="Pour connaître l'histoire du site et ses évolutions importantes"><IMG src="/lib/menu/vide.gif" align=absMiddle>&nbsp;Historique</a></li>
+	<li class='has-sub'><a  href="/api-dev.php" title="API pour exploiter les ressources du site"><IMG src="/lib/menu/vide.gif" align=absMiddle>&nbsp;API développement</a></li>
+	<li class='has-sub'><a>&nbsp;</a></li>
+                </UL></LI>
+
+
+
+
+              <li class='active has-sub'><A href="#">Alphabétique (A - L)</A>
+
+
+
+
+              <UL>
+                <li class='has-sub'><A href="#"><IMG align="absMiddle" src="/lib/menu/vide.gif">&nbsp;A <IMG align="absMiddle" src="/lib/menu/fl.gif"> B<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+                <UL> 
+<!-- COLONNE 1  (15 ITEMs) -->
+<!-- UL style="top: -0px;" -->
+<!-- Ligne 1  (-0PTS) -->
+<!-- Ligne 2  (-26PTS) -->
+<!-- Ligne 3  (-53PTS) -->
+<!-- Ligne 4  (-80PTS) -->
+<!-- Ligne 5  (-107PTS) -->
+<!-- Ligne 5  (-133PTS) -->
+<li><a href="affiche_mag.php?mag=248">01 Informatique</a></li>
+<li><a href="affiche_mag.php?mag=325">01 net</a></li>
+<li><a href="affiche_mag.php?mag=317">100% Soluces</a></li>
+<li><a href="affiche_mag.php?mag=470">333</a></li>
+<li><a href="affiche_mag.php?mag=321">3D Simulation</a></li>
+<li><a href="affiche_mag.php?mag=104">42</a></li>
+<li><a href="affiche_mag.php?mag=137">64 Player</a></li>
+<li><a href="affiche_mag.php?mag=87">99 Magazine</a></li>
+<li><a href="affiche_mag.php?mag=118">A Vos Mac !</a></li>
+<li><a href="affiche_mag.php?mag=62">aBc Informatique</a></li>
+<li><a href="affiche_mag.php?mag=43">Abus Dangereux</a></li>
+<li><a href="affiche_mag.php?mag=74">Action PC</a></li>
+<li><a href="affiche_mag.php?mag=162">Actu & Soluces 64</a></li>
+<li><a href="affiche_mag.php?mag=362">AFAS</a></li>
+<li><a href="affiche_mag.php?mag=322">Air le mag</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 2   -->
+    <UL style="left: 330px;">
+<li><a href="affiche_mag.php?mag=25">Am Mag</a></li>
+<li><a href="affiche_mag.php?mag=25">Am Mag Pro</a></li>
+<li><a href="affiche_mag.php?mag=398">AMI-grafX</a></li>
+<li><a href="affiche_mag.php?mag=2">Amiga Concept</a></li>
+<li><a href="affiche_mag.php?mag=13">Amiga Dream</a></li>
+<li><a href="affiche_mag.php?mag=18">Amiga News</a></li>
+<li><a href="affiche_mag.php?mag=191">Amiga News Tech</a></li>
+<li><a href="affiche_mag.php?mag=59">Amiga Revue</a></li>
+<li><a href="affiche_mag.php?mag=24">Amstar</a></li>
+<li><a href="affiche_mag.php?mag=24">Amstar Informatique</a></li>
+<li><a href="affiche_mag.php?mag=23">Amstrad 100%</a></li>
+<li><A href="affiche_mag.php?mag=54">Amstradebdo et PC</A></li>
+<li><a href="affiche_mag.php?mag=21">Amstrad Magazine</a></li>
+<li><a href="affiche_mag.php?mag=97">Amstrad PC Mag</a></li>
+<li><a href="affiche_mag.php?mag=348">Android Inside</a></li>
+<li><a href="#">&nbsp;</a></li>
+     </UL>
+<!-- COLONNE 3   -->
+    <UL style="left: 480px;">
+<li><a href="affiche_mag.php?mag=244">Android Mobiles</a></li>
+<li><a href="affiche_mag.php?mag=18">ANews</a></li>
+<li><a href="affiche_mag.php?mag=186">Apple Hebdo</a></li>
+<li><a href="affiche_mag.php?mag=104">Apprends-moi.com</a></li>
+<li><a href="affiche_mag.php?mag=203">Arcades</a></li>
+<li><a href="affiche_mag.php?mag=221">Archimède</a></li>
+<li><a href="affiche_mag.php?mag=376">Arkadia</a></li>
+<li><a href="affiche_mag.php?mag=307">Astuces mania</a></li>
+<li><a href="affiche_mag.php?mag=22">Atanews</a></li>
+<li><a href="affiche_mag.php?mag=4">Atari 1ST</a></li>
+<li><a href="affiche_mag.php?mag=5">Atari magazine</a></li>
+<li><a href="affiche_mag.php?mag=343">Background</a></li>
+<li><a href="affiche_mag.php?mag=199">Backstab</a></li>
+<li><a href="affiche_mag.php?mag=46">Banzzaï</a></li>
+<li><a href="affiche_mag.php?mag=179">Basic Plus</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 4   -->
+     <UL style="left: 630px;">
+<li><a href="affiche_mag.php?mag=209">Bestseller Games</a></li>
+<li><a href="affiche_mag.php?mag=264">Btorrent</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+<li class='has-sub'><A href="#"><IMG align="absMiddle" src="/lib/menu/vide.gif">&nbsp;C <IMG align="absMiddle" src="/lib/menu/fl.gif"> D<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+    <UL style="top: -26px;">
+<li><a href="affiche_mag.php?mag=161">Canard PC</a></li>
+<li><a href="affiche_mag.php?mag=352">Canard Jeux Video</a></li>
+<li><a href="affiche_mag.php?mag=82">CASTOR</a></li>
+<li><a href="affiche_mag.php?mag=188">Casus Belli</a></li>
+<li><a href="affiche_mag.php?mag=413">CD Concept</a></li>
+<li><a href="affiche_mag.php?mag=101">CD Consoles</a></li>
+<li><a href="affiche_mag.php?mag=127">CD Jeux</a></li>
+<li><a href="affiche_mag.php?mag=35">CD Loisirs</a></li>
+<li><a href="affiche_mag.php?mag=129">CD-ROM Magazine</a></li>
+<li><a href="affiche_mag.php?mag=236">CD Souris</a></li>
+<li><a href="affiche_mag.php?mag=104">CEO Mag</a></li>
+<li><a href="affiche_mag.php?mag=255">Click & Load</a></li>
+<li><a href="affiche_mag.php?mag=255">Click & Load P2P</a></li>
+<li><a href="affiche_mag.php?mag=104">Club Canon X-07</a></li>
+<li><a href="affiche_mag.php?mag=1">Club Nintendo</a></li>
+<li><a href="#">&nbsp;</a></li>
+   </UL>
+<!-- COLONNE 2   -->
+    <UL style="top: -26px; left: 330px;">
+<li><a href="affiche_mag.php?mag=237">coder</a></li>
+<li><a href="affiche_mag.php?mag=207">Commodore Magazine</a></li>
+<li><a href="affiche_mag.php?mag=58">Commodore Revue</a></li>
+<li><a href="affiche_mag.php?mag=75">Compatibles PC Mag</a></li>
+<li><a href="affiche_mag.php?mag=273">Compétence Mac</a></li>
+<li><a href="affiche_mag.php?mag=276">Compétence Micro</a></li>
+<li><a href="affiche_mag.php?mag=230">computer music</a></li>
+<li><a href="affiche_mag.php?mag=51">Consoles +</a></li>
+<li><a href="affiche_mag.php?mag=163">Consoles Max</a></li>
+<li><a href="affiche_mag.php?mag=377">Consoles Micro</a></li>
+<li><a href="affiche_mag.php?mag=155">Consoles News</a></li>
+<li><a href="affiche_mag.php?mag=228">Copie CD & DVD</a></li>
+<li><a href="affiche_mag.php?mag=17">CPC</a></li>
+<li><a href="affiche_mag.php?mag=19">CPC Infos</a></li>
+<li><a href="affiche_mag.php?mag=277">CréaNum</a></li>
+<li><a href="#">&nbsp;</a></li>
+	</UL>
+<!-- COLONNE 3   -->
+   <UL style="top: -26px; left: 480px;">
+<li><a href="affiche_mag.php?mag=367">Création Photo</a></li>
+<li><a href="affiche_mag.php?mag=337">Creative PC</a></li>
+<li><a href="affiche_mag.php?mag=311">Cubezone</a></li>
+<li><a href="affiche_mag.php?mag=73">Cyber Stratège</a></li>
+<li><a href="affiche_mag.php?mag=107">DEBUG magazine</a></li>
+<li><a href="affiche_mag.php?mag=166">Décision Micro Réseaux</a></li>
+<li><a href="affiche_mag.php?mag=314">Développeur Référence</a></li>
+<li><a href="affiche_mag.php?mag=104">Developpez.com</a></li>
+<li><a href="affiche_mag.php?mag=278">Digital World</a></li>
+<li><a href="affiche_mag.php?mag=279">DIVX Magazine</a></li>
+<li><a href="affiche_mag.php?mag=70">Doom Magazine</a></li>
+<li><a href="affiche_mag.php?mag=302">Download</a></li>
+<li><a href="affiche_mag.php?mag=280">Download P2P</a></li>
+<li><a href="affiche_mag.php?mag=100">DP Magazine</a></li>
+<li><a href="affiche_mag.php?mag=465">Dragon Magazine</a></li>
+<li><a href="#">&nbsp;</a></li>
+    </UL>
+<!-- COLONNE 4   -->
+   <UL style="top: -26px; left: 630px;">
+<li><a href="affiche_mag.php?mag=13">Dream</a></li>
+<li><a href="affiche_mag.php?mag=183">Dreamcast</a></li>
+<li><a href="affiche_mag.php?mag=147">Dreamcast Player</a></li>
+<li><a href="affiche_mag.php?mag=241">Dreamzone</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+<li class='has-sub'><A  href="#"><IMG align="absMiddle" src="/lib/menu/vide.gif">&nbsp;E <IMG align="absMiddle" src="/lib/menu/fl.gif"> F<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+<UL style="top: -53px;">
+<li><a href="affiche_mag.php?mag=172">E-Mulez</a></li>
+<li><a href="affiche_mag.php?mag=222">Echos Sinclair</a></li>
+<li><a href="affiche_mag.php?mag=375">Ecole et Micro</a></li>
+<li><a href="affiche_mag.php?mag=338">Ecrans Home Techno</a></li>
+<li><a href="affiche_mag.php?mag=154">Editions Pix'n Love</a></li>
+<li><a href="affiche_mag.php?mag=214">Education & Informatique</a></li>
+<li><a href="affiche_mag.php?mag=409">Electronique Application</a></li>
+<li><a href="affiche_mag.php?mag=458">Electronique et loisirs</a></li>
+<li><a href="affiche_mag.php?mag=437">Electronique Industrielle</a></li>
+<li><a href="affiche_mag.php?mag=438">Electronique pour vous</a></li>
+<li><a href="affiche_mag.php?mag=404">Electronique Pratique</a></li>
+<li><a href="affiche_mag.php?mag=459">Elektor</a></li>
+<li><a href="affiche_mag.php?mag=431">elex</a></li>
+<li><a href="affiche_mag.php?mag=266">eMule et co</a></li>
+<li><a href="affiche_mag.php?mag=296">Entrevue Web</a></li>
+<li><a href="#">&nbsp;</a></li>
+ </UL>
+<!-- COLONNE 2   -->
+	<UL style="left: 330px; top: -53px;">
+<li><a href="affiche_mag.php?mag=291">Ere Numérique</a></li>
+<li><a href="affiche_mag.php?mag=52">Exelement vôtre</a></li>
+<li><a href="affiche_mag.php?mag=347">FANTEL</a></li>
+<li><a href="affiche_mag.php?mag=104">Fanzines</a></li>
+<li><a href="affiche_mag.php?mag=427">Fortnite</a></li>
+<li><a href="affiche_mag.php?mag=193">FREELOG</a></li>
+<li><a href="affiche_mag.php?mag=469">FREEPLAY</a></li>
+<li><a href="affiche_mag.php?mag=104">FTK Mag</a></li>
+<li><a href="affiche_mag.php?mag=223">FUTURE MUSIC</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+    </UL></LI>
+
+
+  <li class='has-sub'><A href="#"><IMG align="absMiddle" src="/lib/menu/vide.gif">&nbsp;G <IMG align="absMiddle" src="/lib/menu/fl.gif"> H<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+  <UL style="top: -80px;">
+<li><a href="affiche_mag.php?mag=452">Game Boy Advance</a></li>
+<li><a href="affiche_mag.php?mag=63">Game Fan</a></li>
+<li><a href="affiche_mag.php?mag=69">Game Mag</a></li>
+<li><a href="affiche_mag.php?mag=374">Games</a></li>
+<li><a href="affiche_mag.php?mag=419">Games Master</a></li>
+<li><a href="affiche_mag.php?mag=211">Games News</a></li>
+<li><a href="affiche_mag.php?mag=136">Game On</a></li>
+<li><a href="affiche_mag.php?mag=174">Gaming</a></li>
+<li><a href="affiche_mag.php?mag=235">GamePlay RPG</a></li>
+<li><a href="affiche_mag.php?mag=232">Game Play 64</a></li>
+<li><a href="affiche_mag.php?mag=234">Game Play 128</a></li>
+<li><a href="affiche_mag.php?mag=224">GameLive PC</a></li>
+<li><a href="affiche_mag.php?mag=170">Gamer Patch</a></li>
+<li><a href="affiche_mag.php?mag=27">Gen 4</a></li>
+<li><a href="affiche_mag.php?mag=27">Génération 4</a></li>
+<li><a href="#">&nbsp;</a></li>
+    </UL>
+<!-- COLONNE 2   -->
+	<UL style="left: 330px; top: -80px;">
+<li><a href="affiche_mag.php?mag=196">Génération PC</a></li>
+<li><a href="affiche_mag.php?mag=345">Giga Jeux</a></li>
+<li><a href="affiche_mag.php?mag=102">Golden</a></li>
+<li><a href="affiche_mag.php?mag=392">Golden Mac</a></li>
+<li><a href="affiche_mag.php?mag=126">GOUPIL Revue</a></li>
+<li><a href="affiche_mag.php?mag=402">Graal</a></li>
+<li><a href="affiche_mag.php?mag=371">Graphic Artist</a></li>
+<li><a href="affiche_mag.php?mag=369">Graphic Studio</a></li>
+<li><a href="affiche_mag.php?mag=386">Hackable Magazine</a></li>
+<li><a href="affiche_mag.php?mag=300">Hacker News Magazine</a></li>
+<li><a href="affiche_mag.php?mag=229">Hackers Magazine</a></li>
+<li><a href="affiche_mag.php?mag=283">Hackin9</a></li>
+<li><a href="affiche_mag.php?mag=249">Ham Mag</a></li>
+<li><a href="affiche_mag.php?mag=310">Hardcore Gamers</a></li>
+<li><a href="affiche_mag.php?mag=290">Hardware Canard PC</a></li>
+<li><a href="#">&nbsp;</a></li>
+    </UL>
+<!-- COLONNE 3   -->
+	<UL style="top: -80px; left: 480px;">
+<li><a href="affiche_mag.php?mag=231">Hardware magazine</a></li>
+<li><a href="affiche_mag.php?mag=104">Haute Performance</a></li>
+<li><a href="affiche_mag.php?mag=7">Hebdogiciel</a></li>
+<li><a href="affiche_mag.php?mag=451">Hobbytronic</a></li>
+<li><a href="affiche_mag.php?mag=121">Home PC</a></li>
+<li><a href="affiche_mag.php?mag=219">Horizons Multimédia</a></li>
+<li><a href="affiche_mag.php?mag=344">Horror Games Magazine</a></li>
+<li><a href="affiche_mag.php?mag=198">HOT PC</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+                <li class='has-sub'><A href="#"><IMG align="absMiddle" src="/lib/menu/vide.gif">&nbsp;I <IMG align="absMiddle" src="/lib/menu/fl.gif"> K<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+                <UL  style="top: -107px;">
+<li><a href="affiche_mag.php?mag=263">I Love eMule</a></li>
+<li><a href="affiche_mag.php?mag=89">Icônes</a></li>
+<li><a href="affiche_mag.php?mag=332">IG Magazine</a></li>
+<li><a href="affiche_mag.php?mag=365">iCreate</a></li>
+<li><a href="affiche_mag.php?mag=334">iLive</a></li>
+<li><a href="affiche_mag.php?mag=407">IT</a></li>
+<li><a href="affiche_mag.php?mag=133">Info PC</a></li>
+<li><a href="affiche_mag.php?mag=67">Informateur</a></li>
+<li><a href="affiche_mag.php?mag=396">Informatique et gestion</a></li>
+<li><a href="affiche_mag.php?mag=139">Informatiques magazine</a></li>
+<li><a href="affiche_mag.php?mag=372">Inside Linux</a></li>
+<li><a href="affiche_mag.php?mag=293">inside Web</a></li>
+<li><a href="affiche_mag.php?mag=403">Interfaces PC</a></li>
+<li><a href="affiche_mag.php?mag=320">Internet-Achat</a></li>
+<li><a href="affiche_mag.php?mag=238">Internet Pratique</a></li>
+<li><a href="#">&nbsp;</a></li>
+ </UL>
+<!-- COLONNE 2   -->
+	<UL style="top: -107px; left: 330px;">
+<li><a href="affiche_mag.php?mag=308">Internet Reporter</a></li>
+<li><a href="affiche_mag.php?mag=104">iPomme</a></li>
+<li><a href="affiche_mag.php?mag=104">IT COMDEX News</a></li>
+<li><a href="affiche_mag.php?mag=394">IT Pro Magazine</a></li>
+<li><a href="affiche_mag.php?mag=334">iTests</a></li>
+<li><a href="affiche_mag.php?mag=464">JAM</a></li>
+<li><a href="affiche_mag.php?mag=323">JDLi</a></li>
+<li><a href="affiche_mag.php?mag=190">Jedi</a></li>
+<li><a href="affiche_mag.php?mag=36">Jeux Electroniques</a></li>
+<li><a href="affiche_mag.php?mag=185">Jeux & Stratégie</a></li>
+<li><a href="affiche_mag.php?mag=368">Jeux sur un plateau</a></li>
+<li><a href="affiche_mag.php?mag=245">Jeux Video Magazine</a></li>
+<li><a href="affiche_mag.php?mag=379">Jeux Video News</a></li>
+<li><a href="affiche_mag.php?mag=226">Jeux Video PC</a></li>
+<li><a href="affiche_mag.php?mag=424">Jeux Video Plus</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 3   -->
+	  <UL style="top: -107px; left: 480px;">
+<li><a href="affiche_mag.php?mag=309">JeuxVideo Micro</a></li>
+<li><a href="affiche_mag.php?mag=323">Journal Des Loisirs int</a></li>
+<li><a href="affiche_mag.php?mag=84">Joypad</a></li>
+<li><a href="affiche_mag.php?mag=30">Joystick</a></li>
+<li><a href="affiche_mag.php?mag=29">Joystick Hebdo</a></li>
+<li><a href="affiche_mag.php?mag=350">JV</a></li>
+<li><a href="affiche_mag.php?mag=158">Kids'Mania</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+
+
+
+
+                <li class='has-sub'><A  href="#"><IMG   align="absMiddle" src="/lib/menu/vide.gif">&nbsp;L<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+                <UL style="top: -134px;">
+<li><a href="affiche_mag.php?mag=391">L'actu techno</a></li>
+<li><a href="affiche_mag.php?mag=456">L'amateur radio</a></li>
+<li><a href="affiche_mag.php?mag=88">L'Atarien</a></li>
+<li><a href="affiche_mag.php?mag=446">L'Audiophile</a></li>
+<li><a href="affiche_mag.php?mag=401">L'Echo du PCW</a></li>
+<li><a href="affiche_mag.php?mag=44">L'Eclectique</a></li>
+<li><a href="affiche_mag.php?mag=292">L'Essentiel de la Micro</a></li>
+<li><a href="affiche_mag.php?mag=421">L'Essentiel des ACHATS</a></li>
+<li><a href="affiche_mag.php?mag=339">L'Essentiel du mobile</a></li>
+<li><a href="affiche_mag.php?mag=14">L'Hectorien</a></li>
+<li><a href="affiche_mag.php?mag=254">L'Informaticien</a></li>
+<li><a href="affiche_mag.php?mag=397">L'Informatique pro</a></li>
+<li><a href="affiche_mag.php?mag=430">L'Oeil de Lynx</a></li>
+<li><a href="affiche_mag.php?mag=267">L'Officiel du Net</a></li>
+<li><a href="affiche_mag.php?mag=414">L'Officiel PC</a></li>
+<li><a href="#">&nbsp;</a></li>
+ </UL>
+<!-- COLONNE 2   -->
+	<UL style="top: -134px;left: 330px;">
+<li><a href="affiche_mag.php?mag=15">L'Ordinateur de Poche</a></li>
+<li><a href="affiche_mag.php?mag=38">L'Ordinateur Individuel</a></li>
+<li><a href="affiche_mag.php?mag=120">Bible des Tips et Cheat</a></li>
+<li><a href="affiche_mag.php?mag=169">La Commode</a></li>
+<li><a href="affiche_mag.php?mag=433">La Puce</a></li>
+<li><a href="affiche_mag.php?mag=453">La radio francaise</a></li>
+<li><a href="affiche_mag.php?mag=351">La Recherche</a></li>
+<li><a href="affiche_mag.php?mag=440">La TSF pour tous</a></li>
+<li><a href="affiche_mag.php?mag=141">Revue Utilisateur IBM-PC</a></li>
+<li><a href="affiche_mag.php?mag=125">Revue SHARPENTIERS</a></li>
+<li><a href="affiche_mag.php?mag=315">Langages et Systèmes</a></li>
+<li><a href="affiche_mag.php?mag=380">Guide du Pirate</a></li>
+<li><a href="affiche_mag.php?mag=429">Le Guide Ultime</a></li>
+<li><a href="affiche_mag.php?mag=457">Le haut parleur</a></li>
+<li><a href="affiche_mag.php?mag=287">magazine Internautes</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 3   -->
+				  <UL style="top: -134px; left: 480px;">
+<li><a href="affiche_mag.php?mag=406">Led</a></li>
+<li><a href="affiche_mag.php?mag=61">Led Micro</a></li>
+<li><a href="affiche_mag.php?mag=200">Le Nouvel Observateur</a></li>
+<li><a href="affiche_mag.php?mag=364">Le 1er guide achat</a></li>
+<li><a href="affiche_mag.php?mag=213">Le son du canon</a></li>
+<li><a href="affiche_mag.php?mag=462">Le Virus Informatique</a></li>
+<li><a href="affiche_mag.php?mag=3">Cahiers Amstrad Mag</a></li>
+<li><a href="affiche_mag.php?mag=216">Let's RUN</a></li>
+<li><a href="affiche_mag.php?mag=370">Linux+DVD</a></li>
+<li><a href="affiche_mag.php?mag=303">Linux Magazine France</a></li>
+<li><a href="affiche_mag.php?mag=304">Linux Pratique</a></li>
+<li><a href="affiche_mag.php?mag=306">Linux Pratique Essentiel</a></li>
+<li><a href="affiche_mag.php?mag=294">Linux School Magazine</a></li>
+<li><a href="affiche_mag.php?mag=9">List</a></li>
+<li><a href="affiche_mag.php?mag=242">Living Action Game</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 4   -->
+   <UL style="top: -134px; left: 630px;">
+<li><a href="affiche_mag.php?mag=10">Log'Star</a></li>
+<li><a href="affiche_mag.php?mag=142">Logiciels PC</a></li>
+<li><a href="affiche_mag.php?mag=13">Login</a></li>
+<li><a href="affiche_mag.php?mag=10">Logistrad</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+
+
+
+
+
+
+<LI><A>&nbsp;</A></LI>
+ </UL></LI>
+
+
+
+
+              <li class='active has-sub'><A href="#">Alphabétique (M - Z)</A>
+              <UL>
+
+
+
+                <li class='has-sub'><A  href="#"><IMG   align="absMiddle" src="/lib/menu/vide.gif">&nbsp;M<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+                <UL>
+<li><a href="affiche_mag.php?mag=176">M6 Multimedia</a></li>
+<li><a href="affiche_mag.php?mag=233">M6 PlayStation</a></li>
+<li><a href="affiche_mag.php?mag=318">M6 Tomb Raider</a></li>
+<li><a href="affiche_mag.php?mag=150">Mak Fan</a></li>
+<li><a href="affiche_mag.php?mag=301">Maximum DownLoad</a></li>
+<li><a href="affiche_mag.php?mag=295">Maximum Linux</a></li>
+<li><a href="affiche_mag.php?mag=40">MEGA force</a></li>
+<li><a href="affiche_mag.php?mag=269">MEGA UPLOAD</a></li>
+<li><a href="affiche_mag.php?mag=408">MEGAHERTZ</a></li>
+<li><a href="affiche_mag.php?mag=284">MiC MAC</a></li>
+<li><a href="affiche_mag.php?mag=57">Micr'Oric</a></li>
+<li><a href="affiche_mag.php?mag=41">Micro 7</a></li>
+<li><a href="affiche_mag.php?mag=319">Micro Achat</a></li>
+<li><a href="affiche_mag.php?mag=195">micro actuel</a></li>
+<li><a href="affiche_mag.php?mag=467">Micro Application</a></li>
+<li><a href="#">&nbsp;</a></li>
+ </UL>
+<!-- COLONNE 2   -->
+	<UL style="left: 330px;">
+<li><a href="affiche_mag.php?mag=210">Micro Dingo</a></li>
+<li><a href="affiche_mag.php?mag=33">Micro et Robots</a></li>
+<li><a href="affiche_mag.php?mag=215">Micro Hebdo</a></li>
+<li><a href="affiche_mag.php?mag=460">Micro Info</a></li>
+<li><a href="affiche_mag.php?mag=115">Micro kid's</a></li>
+<li><a href="affiche_mag.php?mag=11">Micro Mag</a></li>
+<li><a href="affiche_mag.php?mag=8">Micro News</a></li>
+<li><a href="affiche_mag.php?mag=415">Micro Ordinateurs</a></li>
+<li><a href="affiche_mag.php?mag=342">micro portable</a></li>
+<li><a href="affiche_mag.php?mag=212">Micro pour tous</a></li>
+<li><a href="affiche_mag.php?mag=177">micro pratique</a></li>
+<li><a href="affiche_mag.php?mag=104">Micro Quest</a></li>
+<li><a href="affiche_mag.php?mag=96">Micro Revue</a></li>
+<li><a href="affiche_mag.php?mag=111">Micro Simulateur</a></li>
+<li><a href="affiche_mag.php?mag=16">Micro Strad</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 3   -->
+				  <UL style="left: 480px;">
+<li><a href="affiche_mag.php?mag=64">Micro Systèmes</a></li>
+<li><a href="affiche_mag.php?mag=79">Micro V.O.</a></li>
+<li><a href="affiche_mag.php?mag=42">Micro World</a></li>
+<li><a href="affiche_mag.php?mag=45">Microdor</a></li>
+<li><a href="affiche_mag.php?mag=78">Micros ID</a></li>
+<li><a href="affiche_mag.php?mag=77">Micros MSX</a></li>
+<li><a href="affiche_mag.php?mag=153">Microtom</a></li>
+<li><a href="affiche_mag.php?mag=285">MISC</a></li>
+<li><a href="affiche_mag.php?mag=329">Mobiles Magazine</a></li>
+<li><a href="affiche_mag.php?mag=468">Mon Micro rend service</a></li>
+<li><a href="affiche_mag.php?mag=461">Mon Programme</a></li>
+<li><a href="affiche_mag.php?mag=281">Mon Web</a></li>
+<li><a href="affiche_mag.php?mag=76">MSX Magazine</a></li>
+<li><a href="affiche_mag.php?mag=72">MSX News</a></li>
+<li><a href="affiche_mag.php?mag=128">Multimedia News</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 4   -->
+				  <UL style="left: 630px;">
+<li><a href="affiche_mag.php?mag=37">Multimedia PC Player</a></li>
+<li><a href="affiche_mag.php?mag=208">Multimédia Solutions</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+
+                <LI class='has-sub'><A href="#"><IMG align="absMiddle" src="/lib/menu/vide.gif">&nbsp;N <IMG align="absMiddle" src="/lib/menu/fl.gif"> O<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+    <UL style="top: -26px;">
+<li><a href="affiche_mag.php?mag=220">N'TIC</a></li>
+<li><a href="affiche_mag.php?mag=49">Nano Ordinateurs</a></li>
+<li><a href="affiche_mag.php?mag=171">.net</a></li>
+<li><a href="affiche_mag.php?mag=201">NetBug</a></li>
+<li><a href="affiche_mag.php?mag=132">News Magazine</a></li>
+<li><a href="affiche_mag.php?mag=253">New Player</a></li>
+<li><a href="affiche_mag.php?mag=422">Next Games</a></li>
+<li><a href="affiche_mag.php?mag=288">Nintendo 3DS</a></li>
+<li><a href="affiche_mag.php?mag=144">Nintendo DS</a></li>
+<li><a href="affiche_mag.php?mag=156">Nintendo Magazine Offi</a></li>
+<li><a href="affiche_mag.php?mag=160">Nintendo magazine</a></li>
+<li><a href="affiche_mag.php?mag=53">Nintendo Player</a></li>
+<li><a href="affiche_mag.php?mag=455">Nouvelle électronique</a></li>
+<li><a href="affiche_mag.php?mag=10">Nouveau Logistrad</a></li>
+<li><a href="affiche_mag.php?mag=104">OFG Mag</a></li>
+<li><a href="#">&nbsp;</a></li>
+ </UL>
+<!-- COLONNE 2   -->
+	<UL style="top: -26px; left: 330px;">
+<li><a href="affiche_mag.php?mag=95">Okaz</a></li>
+<li><a href="affiche_mag.php?mag=154">Omaké books</a></li>
+<li><a href="affiche_mag.php?mag=252">Online Gamer</a></li>
+<li><a href="affiche_mag.php?mag=138">On Lines micro !</a></li>
+<li><a href="affiche_mag.php?mag=387">Open Silicium</a></li>
+<li><a href="affiche_mag.php?mag=134">Open Source</a></li>
+<li><a href="affiche_mag.php?mag=124">ORDI-5</a></li>
+<li><a href="affiche_mag.php?mag=416">ORDI magazine</a></li>
+<li><a href="affiche_mag.php?mag=389">Ouvrages</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+                <li class='has-sub'><A href="#"><IMG align="absMiddle" src="/lib/menu/vide.gif">&nbsp;P<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+               <UL style="top: -53px;">
+<li><a href="affiche_mag.php?mag=265">P2P Mag</a></li>
+<li><a href="affiche_mag.php?mag=220">P911</a></li>
+<li><a href="affiche_mag.php?mag=66">Pascalissime</a></li>
+<li><a href="affiche_mag.php?mag=432">PC à fond</a></li>
+<li><a href="affiche_mag.php?mag=258">PC Achat</a></li>
+<li><a href="affiche_mag.php?mag=274">PC Action</a></li>
+<li><a href="affiche_mag.php?mag=182">PC Assemblage</a></li>
+<li><a href="affiche_mag.php?mag=206">PC Collector</a></li>
+<li><a href="affiche_mag.php?mag=381">PC Comparatif</a></li>
+<li><a href="affiche_mag.php?mag=202">PC Direct</a></li>
+<li><a href="affiche_mag.php?mag=423">PC Driver</a></li>
+<li><a href="affiche_mag.php?mag=140">PC Expert</a></li>
+<li><a href="affiche_mag.php?mag=282">PC Focus</a></li>
+<li><a href="affiche_mag.php?mag=194">PC Force</a></li>
+<li><a href="affiche_mag.php?mag=71">PC Fun</a></li>
+<li><a href="#">&nbsp;</a></li>
+ </UL>
+<!-- COLONNE 2   -->
+	<UL style="top: -53px; left: 330px;">
+<li><a href="affiche_mag.php?mag=81">PC Futé</a></li>
+<li><a href="affiche_mag.php?mag=383">PC Gamer</a></li>
+<li><a href="affiche_mag.php?mag=86">PC Genius</a></li>
+<li><a href="affiche_mag.php?mag=410">PC Hardware</a></li>
+<li><a href="affiche_mag.php?mag=119">PC JEUX</a></li>
+<li><a href="affiche_mag.php?mag=112">PC Junior</a></li>
+<li><a href="affiche_mag.php?mag=151">PC Live</a></li>
+<li><a href="affiche_mag.php?mag=47">PC Loisirs</a></li>
+<li><a href="affiche_mag.php?mag=197">PC Mag Loisirs</a></li>
+<li><a href="affiche_mag.php?mag=75">PC Magazine</a></li>
+<li><a href="affiche_mag.php?mag=157">PC Max</a></li>
+<li><a href="affiche_mag.php?mag=411">PC N1</a></li>
+<li><a href="affiche_mag.php?mag=50">PC Novice</a></li>
+<li><a href="affiche_mag.php?mag=184">PC Performance</a></li>
+<li><a href="affiche_mag.php?mag=227">PC Pirate</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 3   -->
+				  <UL style="top: -53px; left: 480px;">
+<li><a href="affiche_mag.php?mag=37">PC Player</a></li>
+<li><a href="affiche_mag.php?mag=435">PC Pratique</a></li>
+<li><a href="affiche_mag.php?mag=110">PC Soluces</a></li>
+<li><a href="affiche_mag.php?mag=109">PC Team</a></li>
+<li><a href="affiche_mag.php?mag=251">PC Trucs & Astuces</a></li>
+<li><a href="affiche_mag.php?mag=34">PC review</a></li>
+<li><a href="affiche_mag.php?mag=217">PC Update</a></li>
+<li><a href="affiche_mag.php?mag=259">PC Utilities</a></li>
+<li><a href="affiche_mag.php?mag=331">PC4WAR</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+  <li class='has-sub'><A href="#"><IMG align="absMiddle" src="/lib/menu/vide.gif">&nbsp;P <IMG align="absMiddle" src="/lib/menu/fl.gif"> Q<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+	<UL style="top: -80px;">
+<li><a href="affiche_mag.php?mag=149">PCompatibles info</a></li>
+<li><a href="affiche_mag.php?mag=268">phpsolutions</a></li>
+<li><a href="affiche_mag.php?mag=328">PHONE LIFE</a></li>
+<li><a href="affiche_mag.php?mag=275">photoschool</a></li>
+<li><a href="affiche_mag.php?mag=108">Picsou Magazine</a></li>
+<li><a href="affiche_mag.php?mag=289">Pirat'z</a></li>
+<li><a href="affiche_mag.php?mag=250">Pirate Informatique</a></li>
+<li><a href="affiche_mag.php?mag=297">Pirates Mag</a></li>
+<li><a href="affiche_mag.php?mag=175">Pixel</a></li>
+<li><a href="affiche_mag.php?mag=104">Pixel and game</a></li>
+<li><a href="affiche_mag.php?mag=418">Planete Linux</a></li>
+<li><a href="affiche_mag.php?mag=425">Play Guide</a></li>
+<li><a href="affiche_mag.php?mag=312">Playbox</a></li>
+<li><a href="affiche_mag.php?mag=32">Player One</a></li>
+<li><a href="affiche_mag.php?mag=123">Player Station</a></li>
+<li><a href="#">&nbsp;</a></li>
+ </UL>
+<!-- COLONNE  2  -->
+	<UL style="top: -80px; left: 330px;">
+<li><a href="affiche_mag.php?mag=80">Player Two</a></li>
+<li><a href="affiche_mag.php?mag=92">PlayMag</a></li>
+<li><a href="affiche_mag.php?mag=99">Planète Internet</a></li>
+<li><a href="affiche_mag.php?mag=395">Play Games</a></li>
+<li><a href="affiche_mag.php?mag=103">PlayStation Magazine</a></li>
+<li><a href="affiche_mag.php?mag=256">PlayStation Mag Officiel</a></li>
+<li><a href="affiche_mag.php?mag=146">PlayPower</a></li>
+<li><a href="affiche_mag.php?mag=145">PlaySoluces</a></li>
+<li><a href="affiche_mag.php?mag=12">Poche Computers</a></li>
+<li><a href="affiche_mag.php?mag=324">Pocket Magazine</a></li>
+<li><a href="affiche_mag.php?mag=55">Pokey</a></li>
+<li><a href="affiche_mag.php?mag=60">Pom's</a></li>
+<li><a href="affiche_mag.php?mag=104">Pomme Illustrée</a></li>
+<li><a href="affiche_mag.php?mag=220">Powaaa!</a></li>
+<li><a href="affiche_mag.php?mag=104">PPI</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 3   -->
+	<UL style="top: -80px; left: 480px;">
+<li><a href="affiche_mag.php?mag=178">Presqu'offert!</a></li>
+<li><a href="affiche_mag.php?mag=341">presselivre</a></li>
+<li><a href="affiche_mag.php?mag=167">Programmez !</a></li>
+<li><a href="affiche_mag.php?mag=148">Psion User</a></li>
+<li><a href="affiche_mag.php?mag=378">PSM2</a></li>
+<li><a href="affiche_mag.php?mag=165">PSone Magazine</a></li>
+<li><a href="affiche_mag.php?mag=286">Question Micro</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+                <LI class='has-sub'><A href="#"><IMG   align="absMiddle" src="/lib/menu/vide.gif">&nbsp;R <IMG align="absMiddle" src="/lib/menu/fl.gif"> S<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+	<UL style="top: -107px;">
+<li><a href="affiche_mag.php?mag=444">RADIO constructeur</a></li>
+<li><a href="affiche_mag.php?mag=448">Radio Télévision Pratique</a></li>
+<li><a href="affiche_mag.php?mag=445">Radio TV construct</a></li>
+<li><a href="affiche_mag.php?mag=405">Radio Plans</a></li>
+<li><a href="affiche_mag.php?mag=447">Radio technicien</a></li>
+<li><a href="affiche_mag.php?mag=443">Radiomateur</a></li>
+<li><a href="affiche_mag.php?mag=39">RAM</a></li>
+<li><a href="affiche_mag.php?mag=94">Réponse Micro</a></li>
+<li><a href="affiche_mag.php?mag=104">Retropolis</a></li>
+<li><a href="affiche_mag.php?mag=63">Retro Game</a></li>
+<li><a href="affiche_mag.php?mag=192">RETRO JEUX</a></li>
+<li><a href="affiche_mag.php?mag=65">Retro Player</a></li>
+<li><a href="affiche_mag.php?mag=346">Retro Playing</a></li>
+<li><a href="affiche_mag.php?mag=361">Retro vers le futur</a></li>
+<li><a href="affiche_mag.php?mag=390">Retrogamer Collection</a></li>
+<li><a href="#">&nbsp;</a></li>
+ </UL>
+<!-- COLONNE 2   -->
+	<UL style="top: -107px; left: 330px;">
+<li><a href="affiche_mag.php?mag=104">RetroGeek Mag</a></li>
+<li><a href="affiche_mag.php?mag=441">Revue du son</a></li>
+<li><a href="affiche_mag.php?mag=152">Revival</a></li>
+<li><a href="affiche_mag.php?mag=434">RPG</a></li>
+<li><a href="affiche_mag.php?mag=243">Role Playing Game</a></li>
+<li><a href="affiche_mag.php?mag=399">#RTFM</a></li>
+<li><a href="affiche_mag.php?mag=204">RUNSTAR</a></li>
+<li><a href="affiche_mag.php?mag=90">RUNSTRAD</a></li>
+<li><a href="affiche_mag.php?mag=220">SANQUA</a></li>
+<li><a href="affiche_mag.php?mag=85">Science & Vie</a></li>
+<li><a href="affiche_mag.php?mag=48">Science & Vie Micro</a></li>
+<li><a href="affiche_mag.php?mag=114">Sciences & Avenir</a></li>
+<li><a href="affiche_mag.php?mag=450">Scout</a></li>
+<li><a href="affiche_mag.php?mag=164">Screenfun</a></li>
+<li><a href="affiche_mag.php?mag=117">SEGA News</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 3   -->
+	<UL style="top: -107px; left: 480px;">
+<li><a href="affiche_mag.php?mag=388">Select Round</a></li>
+<li><a href="affiche_mag.php?mag=257">Sims Magazine</a></li>
+<li><a href="affiche_mag.php?mag=330">SOCIAL LIFE</a></li>
+<li><a href="affiche_mag.php?mag=98">Soft & Micro</a></li>
+<li><a href="affiche_mag.php?mag=417">Soluces Express</a></li>
+<li><a href="affiche_mag.php?mag=262">Solutions Logiciels</a></li>
+<li><a href="affiche_mag.php?mag=349">Solutions PC</a></li>
+<li><a href="affiche_mag.php?mag=393">Sonic Mag</a></li>
+<li><a href="affiche_mag.php?mag=305">SOS Jeux</a></li>
+<li><a href="affiche_mag.php?mag=340">SOS Micro</a></li>
+<li><a href="affiche_mag.php?mag=181">SOS Play</a></li>
+<li><a href="affiche_mag.php?mag=93">ST Echos</a></li>
+<li><a href="affiche_mag.php?mag=6">ST Magazine</a></li>
+<li><a href="affiche_mag.php?mag=366">Standard MSX</a></li>
+<li><a href="affiche_mag.php?mag=31">STart Micro</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 4   -->
+   <UL style="top: -107px; left: 630px;">
+<li><a href="affiche_mag.php?mag=173">StratéJ</a></li>
+<li><a href="affiche_mag.php?mag=26">Stratos</a></li>
+<li><a href="affiche_mag.php?mag=143">Studio multimedia</a></li>
+<li><a href="affiche_mag.php?mag=260">Stuff</a></li>
+<li><a href="affiche_mag.php?mag=20">Super Power</a></li>
+<li><a href="affiche_mag.php?mag=68">Supersonic</a></li>
+<li><a href="affiche_mag.php?mag=48">SVM</a></li>
+<li><a href="affiche_mag.php?mag=113">SVM Junior</a></li>
+<li><a href="affiche_mag.php?mag=131">SVM Mac</a></li>
+<li><a href="affiche_mag.php?mag=131">SVM Macintosh</a></li>
+<li><a href="affiche_mag.php?mag=449">SVM Multimédia</a></li>
+<li><a href="affiche_mag.php?mag=466">Systeme D</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+                <li class='has-sub'><A href="#"><IMG align="absMiddle" src="/lib/menu/vide.gif">&nbsp;T <IMG align="absMiddle" src="/lib/menu/fl.gif"> Z<IMG align="right" src="/lib/menu/grey-arrow.gif"></A>
+<!-- COLONNE 1   -->
+	 <UL style="top: -134px;">
+<li><a href="affiche_mag.php?mag=412">T3</a></li>
+<li><a href="affiche_mag.php?mag=326">Tangente</a></li>
+<li><a href="affiche_mag.php?mag=220">TechnoMag</a></li>
+<li><a href="affiche_mag.php?mag=439">Technosaures</a></li>
+<li><a href="affiche_mag.php?mag=189">TéléSoft</a></li>
+<li><a href="affiche_mag.php?mag=436">Télévision</a></li>
+<li><a href="affiche_mag.php?mag=106">TEO</a></li>
+<li><a href="affiche_mag.php?mag=106">TEOphile</a></li>
+<li><a href="affiche_mag.php?mag=272">Hackademy Magazine</a></li>
+<li><a href="affiche_mag.php?mag=298">Hackademy Prog</a></li>
+<li><a href="affiche_mag.php?mag=382">The Game</a></li>
+<li><a href="affiche_mag.php?mag=56">Théoric</a></li>
+<li><a href="affiche_mag.php?mag=28">Tilt</a></li>
+<li><a href="affiche_mag.php?mag=246">TOP 500 Sites</a></li>
+<li><a href="affiche_mag.php?mag=130">Top Consoles</a></li>
+<li><a href="#">&nbsp;</a></li>
+ </UL>
+<!-- COLONNE 2   -->
+	<UL style="top: -134px; left: 330px;">
+<li><a href="affiche_mag.php?mag=420">Total Cube</a></li>
+<li><a href="affiche_mag.php?mag=225">Total Jeux PC</a></li>
+<li><a href="affiche_mag.php?mag=463">Total Jeux Video</a></li>
+<li><a href="affiche_mag.php?mag=122">Total Play</a></li>
+<li><a href="affiche_mag.php?mag=373">Tortue Magazine</a></li>
+<li><a href="affiche_mag.php?mag=454">Toute la radio</a></li>
+<li><a href="affiche_mag.php?mag=205">Trace</a></li>
+<li><a href="affiche_mag.php?mag=105">tremplin micro</a></li>
+<li><a href="affiche_mag.php?mag=442">TSF et TV</a></li>
+<li><a href="affiche_mag.php?mag=187">Ultra 64</a></li>
+<li><a href="affiche_mag.php?mag=83">Ultra Player</a></li>
+<li><a href="affiche_mag.php?mag=159">Univers Jeux & Micro</a></li>
+<li><a href="affiche_mag.php?mag=240">Univers Micro</a></li>
+<li><a href="affiche_mag.php?mag=270">V Mag INFORMATIQUE</a></li>
+<li><a href="affiche_mag.php?mag=313">Video Gamer</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 3   -->
+				  <UL style="top: -134px; left: 480px;">
+<li><a href="affiche_mag.php?mag=426">Virus Gamer Magazine</a></li>
+<li><a href="affiche_mag.php?mag=316">Votre Ordinateur</a></li>
+<li><a href="affiche_mag.php?mag=333">Vous et votre Mac</a></li>
+<li><a href="affiche_mag.php?mag=363">Web Design</a></li>
+<li><a href="affiche_mag.php?mag=336">Web Facile</a></li>
+<li><a href="affiche_mag.php?mag=384">Web magazine</a></li>
+<li><a href="affiche_mag.php?mag=261">Web pocket</a></li>
+<li><a href="affiche_mag.php?mag=220">Webzines</a></li>
+<li><a href="affiche_mag.php?mag=400">Win 10</a></li>
+<li><a href="affiche_mag.php?mag=428">Win 10 Pratique</a></li>
+<li><a href="affiche_mag.php?mag=116">Win Internet Pratique</a></li>
+<li><a href="affiche_mag.php?mag=247">Windows PC Trucs</a></li>
+<li><a href="affiche_mag.php?mag=168">Windows News</a></li>
+<li><a href="affiche_mag.php?mag=135">Windows Plus</a></li>
+<li><a href="affiche_mag.php?mag=271">Windows Vista</a></li>
+<li><a href="#">&nbsp;</a></li>
+</UL>
+<!-- COLONNE 4   -->
+   <UL style="top: -134px; left: 630px;">
+<li><a href="affiche_mag.php?mag=299">Windows xp</a></li>
+<li><a href="affiche_mag.php?mag=91">X64 magazine</a></li>
+<li><a href="affiche_mag.php?mag=180">XBOX</a></li>
+<li><a href="affiche_mag.php?mag=218">XBOX 360</a></li>
+<li><a href="affiche_mag.php?mag=239">XP Solutions</a></li>
+<li><a href="affiche_mag.php?mag=335">Your iPad</a></li>
+<li><a href="affiche_mag.php?mag=327">Your iPhone</a></li>
+<li><a href="affiche_mag.php?mag=220">Zoo</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li><a href="#">&nbsp;</a></li>
+<li class='last'><a href="#">&nbsp;</a></li>
+</UL></LI>
+
+
+<LI><A>&nbsp;</A></LI>
+ </UL></LI>
+
+
+ <li class='active has-sub'><A href="#">Partenaires</A>
+ <UL>
+  <li class='has-sub'><a href="http://www.abandonware-videos.org" target="_blank" title="Site sur les anciennes vidéos de jeux vidéo">&nbsp;Abandonware Vidéos</a></li>
+  <li class='has-sub'><a href="http://www.abandonware-definition.org" target=_blank title="Découvrez ce que signifie le mot abandonware">&nbsp;Abandonware Définition</a></li>
+  <li class='has-sub'><a href="http://www.lankhor.net" target=_blank title="Le site de référence des jeux Lankhor"><IMG align="absMiddle" src="/lib/menu/l.gif">&nbsp;&nbsp;Lankhor.net</a></li>
+  <li class='has-sub'><a href="http://www.abandonware.org" target=_blank title="Annuaire des meilleurs sites abandonware">&nbsp;Portail / Annuaire Abw</a></li>
+  <LI><A>&nbsp;</A>
+</LI></UL>
+
+</LI></UL></DIV></TD></TR></TBODY></TABLE>
+
+<!-- MENU -->
+
+
+
+
+
+
+              <table width="80%"  border="0" cellpadding="10" cellspacing="0" bordercolor="#999999" align="center">
+                <tr> 
+                  <td bgcolor="#ffffff"><div align="left"> 
+                <center>
+                  <b><big>Erreur 404</big></b>
+                </center>
+
+
+
+<p>
+<hr>
+La page que vous avez demandé n'existe pas.
+<br>
+Si le lien provient d'un site dont je m'occupe (<a href="http://www.lankhor.net"><b>lankhor.net</b></a>, <a href="http://www.abandonware-definition.org"><b>abandonware-definition.org</b></a>, <a href="http://www.abandonware-magazines.org"><b>abandonware-magazines</b></a>, <a href="http://www.abandonware-videos.org"><b>abandonware-videos.org</b></a> ou <a href="http://www.abandonware.org"><b>abandonware.org</b></a>), merci de <a href="mailto:frederic@letellier.org?subject=(mauvais lien magazines abandonware)"><b><big><big>cliquer ici</big></big></b></a> pour me prévenir de ce mauvais lien.
+<br>
+Si le mauvais lien provient d'un site externe, merci de prévenir son webmaster pour qu'il corrige le lien.
+
+
+                      </div></td>
+                </tr>
+              </table>
+             
+
+
+
+
+
+<p>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000">
+<tr> 
+<td>
+<small>
+<font color="#FFFFFF">&nbsp; &copy; 2002-2020 
+&nbsp; - &nbsp; 
+ <a href="/mentions.php" class="menu"><b>Mentions 
+            l&eacute;gales</b></a></font>
+</font></small>
+</td>
+</tr>
+</table>
+
+
+</body>
+</html>

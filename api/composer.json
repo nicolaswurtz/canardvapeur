@@ -1,0 +1,15 @@
+{
+    "name": "elow/steamcpc",
+    "authors": [
+        {
+            "name": "Nicolas Wurtz",
+            "email": "git@nethenic.net"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.14",
+        "vlucas/phpdotenv": "^5.0",
+        "kevinlebrun/colors.php": "^1.0",
+        "paquettg/php-html-parser": "^3.1"
+    }
+}

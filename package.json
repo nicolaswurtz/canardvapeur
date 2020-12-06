@@ -1,0 +1,49 @@
+{
+  "name": "canardvapeur",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "node-sass": "4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
+    "react-id-generator": "^3.0.1",
+    "react-proptypes": "^1.0.0",
+    "react-scripts": "4.0.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-flowtype": "^3.13.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}

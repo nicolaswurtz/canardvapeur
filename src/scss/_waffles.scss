@@ -1,0 +1,14 @@
+.container-color-cubes {
+  margin: 0.5rem 0.5rem 0;
+  .row-color-cubes {
+    display: inline-block;
+    .color-cube {
+      display: block;
+      border-radius: 6px;
+      margin: 1px;
+      width: 6px;
+      height: 6px;
+      transition: .2s;
+    }
+  }
+}

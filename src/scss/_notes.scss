@@ -1,0 +1,52 @@
+.note-bar {
+  display: block;
+  position: relative;
+  min-height: 3rem;
+  border-left: .3rem solid transparent;
+  margin-left: .5rem;
+  @media screen and (max-width: $breakpoint-mobile1) {
+    min-height: 2rem;
+  }
+}
+.average-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 .5rem;
+  border-radius: 4px;
+  width: 3rem;
+  height: 3rem;
+  background-color: $blue1;
+  color: $carbon;
+  font-weight: bold;
+}
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 2rem;
+  min-width: 2.2rem;
+  min-height: 2.2rem;
+  color: $carbon;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.noteNaN {
+  font-size: 1rem;
+  color: $blue1;
+  border-color: $blue1;
+  background-color: transparent;
+}
+@each $key, $color in $notes {
+  .note#{$key} {
+    background-color: $color;
+    border-color: $color;
+  }
+  .color-note#{$key} {
+    color: $color;
+  }
+}
+.noteMax {
+  background-color: $blue1;
+}

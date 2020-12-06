@@ -1,0 +1,37 @@
+$breakpoint-mobile1: 768px;
+
+/* https://coolors.co/05668d-427aa1-ebf2fa-679436-a5be00 */
+$primary-text: #EBF2FA;
+$secondary-text: #cbd4df;
+
+$blue1: #427AA1;
+$blue2: #05668D;
+$green1: #A5BE00;
+$green2: #679436;
+$yellow: #f9c74f;
+$red: #f94144;
+$orange1: #f8961e;
+$orange2: #f3722c;
+
+$carbon: #333;
+$notsodarkcarbon: #2a2a2a;
+$darkcarbon: #222;
+$lightcarbon: #444;
+$lightgray: #777;
+
+$background: $carbon;
+$itembackground: $darkcarbon;
+
+$notes: (
+  "10": $blue1,
+  "9": #0eac00,
+  "8": #64b60a,
+  "7": $green1,
+  "6": $yellow,
+  "5": $orange1,
+  "4": $orange2,
+  "3": $red,
+  "2": $red,
+  "1": $red,
+  "0": $red,
+);

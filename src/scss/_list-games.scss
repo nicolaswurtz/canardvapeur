@@ -1,0 +1,139 @@
+.list-games {
+  padding-top: 5.5rem;
+  @media screen and (max-width: $breakpoint-mobile1) {
+    padding-top: 12.5rem;
+  }
+  .game {
+    border-radius: 4px;
+    background-color: $itembackground;
+    margin: .5rem;
+    transition: .5s;
+    .head {
+      padding: .5rem 0;
+      display: flex;
+      align-items: center;
+      transition: .2s;
+      overflow: hidden;
+      cursor: pointer;
+      &:hover {
+        background-color: $notsodarkcarbon;
+      }
+      .logo {
+        @media screen and (max-width: $breakpoint-mobile1) {
+          display: none;
+        }
+        margin-left: .5rem;
+        height: 3rem;
+        img {
+          height: 3rem;
+        }
+      }
+      .icon {
+        @media screen and (min-width: $breakpoint-mobile1) {
+          display: none;
+        }
+        margin-left: .5rem;
+        height: 2rem;
+      }
+      .title {
+        padding: 0 .5rem;
+        font-size: 1.25rem;
+        @media screen and (max-width: $breakpoint-mobile1) {
+          height: 2rem;
+          font-size: .9rem;
+        }
+        .subtitle {
+          font-weight: lighter;
+          font-size: .9rem;
+          @media screen and (max-width: $breakpoint-mobile1) {
+            font-size: .7rem;
+          }
+        }
+      }
+
+      .to-right {
+        display: flex;
+        align-items: center;
+        margin: 0 1rem 0 auto;
+
+        .tested-by {
+          @media screen and (max-width: $breakpoint-mobile1) {
+            display: none;
+          }
+          font-size: .8rem;
+          margin-right: .5rem;
+          font-weight: lighter;
+        }
+      }
+    }
+
+    .mobile-logo {
+      @media screen and (min-width: $breakpoint-mobile1) {
+        display: none;
+      }
+      margin: .5rem .5rem 0;
+      text-align: center;
+      border-bottom: 1px solid $lightcarbon;
+      padding-bottom: .5rem;
+      img {
+        width: 100%;
+      }
+    }
+
+    .details {
+      display: flex;
+        align-items: flex-start;
+      max-height: 100rem;
+      padding: 1rem 1rem .5rem .5rem;
+      transition: max-height .5s ease;
+      overflow: hidden;
+      .cpc-cover {
+        width: 5rem;
+        height: auto;
+        border-radius: 4px;
+      }
+      .content {
+        .content-head {
+          display: flex;
+          padding-bottom: .5rem;
+        }
+        .year {
+          color: $primary-text;
+          background-color: $blue1;
+        }
+        .numcpc {
+          color: $darkcarbon;
+          background-color: $red;
+        }
+        .humantime {
+          background-color: $blue2;
+        }
+        .description {
+          color: $secondary-text;
+          font-size: .8rem;
+          padding-left: .5rem;
+          &::before {
+            margin-left: .5rem;
+            content: '«';
+          }
+          &::after {
+            content: '»';
+          }
+        }
+      }
+      .testedBy {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-weight: lighter;
+        font-size: .8rem;
+        margin-bottom: .5rem;
+        img {
+          margin: 0 .5rem;
+          border-radius: 4px;
+          width: 2rem;
+        }
+      }
+    }
+  }
+}
