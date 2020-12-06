@@ -79,6 +79,15 @@
       font-size: .8rem;
       text-align: right;
     }
+    .infos-user-avatar {
+      display: flex;
+      align-items: center;
+      margin-left: .5rem;
+      img {
+      border-radius: 4px;
+        height: 3rem;
+      }
+    }
     @media screen and (max-width: $breakpoint-mobile1) {
       margin-left: 0;
       margin-top: .5rem;

@@ -105,7 +105,14 @@ const ListGames = (props) => {
               {allMyGames.user.realname}
             </div>
           </div>
-          <button className="infos-user-exit" type="button" onClick={returnToLogin}>
+          <div className="infos-user-avatar">
+            <img src={allMyGames.user.avatarmedium} alt="avatar" />
+          </div>
+          <button
+            className="infos-user-exit"
+            type="button"
+            onClick={returnToLogin}
+          >
             <MdExitToApp />
           </button>
         </div>
