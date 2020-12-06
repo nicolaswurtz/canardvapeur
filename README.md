@@ -1,4 +1,9 @@
-# Your Steam games library enhanced with reviews and ratings from CanardPC, the best French video game magazine.
+# Canard Vapeur
+_Your Steam games library enhanced with reviews and ratings from CanardPC, the best French video game magazine !_
+
+![Games library](capture1.jpg?raw=true "Games library")
+
+![Game's detail](capture2.jpg?raw=true "Games library")
 
 ## API
 PHP quick & dirty, some scripts to merge source of rating from
@@ -14,4 +19,4 @@ Feel free to contribute, a lot of things are missing (translation, better API, l
 
 It's a little side project, so don't expect I'll be reactive, forgive-me, but who knows... !
 
-Enjoy ! Wabon ? DTC.
+Enjoy ! Wabon ? DTC !
