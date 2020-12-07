@@ -56,7 +56,7 @@ export default function Login(props) {
               <a href="https://twitter.com/NicolasW_GRAOU">
                 <span className="login-logo twitter" />
               </a>
-              <a href="https://twitter.com/NicolasW_GRAOU">
+              <a href="https://github.com/nicolaswurtz/canardvapeur">
                 <span className="login-logo github" />
               </a>
             </div>
@@ -67,7 +67,7 @@ export default function Login(props) {
               type="text"
               value={steamID}
               onChange={handleChange}
-              placeholder="Steam ID"
+              placeholder="Steam ID 64 (dec)"
             />
             <button type="submit">OK</button>
           </form>
@@ -76,9 +76,13 @@ export default function Login(props) {
           </div>
           <div className="login-help">
             Vous pouvez retrouver votre
-            <i> Steam ID </i>
-            grâce à
+            <strong> Steam ID 64 Dec </strong>
+            (sous la forme 76591197974395885 par exemple) grâce à
             <a href="https://steamidfinder.com"> ce site.</a>
+            <br />
+            Votre profil
+            <strong> ne doit pas </strong>
+            être privé.
           </div>
         </div>
         <Disclaimer />
