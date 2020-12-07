@@ -13,7 +13,7 @@ const Header = () => (
     <a href="https://twitter.com/NicolasW_GRAOU">
       <span className="header-logo twitter" />
     </a>
-    <a href="https://twitter.com/NicolasW_GRAOU">
+    <a href="https://github.com/nicolaswurtz/canardvapeur">
       <span className="header-logo github" />
     </a>
   </div>
