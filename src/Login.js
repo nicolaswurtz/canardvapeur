@@ -51,15 +51,6 @@ export default function Login(props) {
             <span className="color-note6">r</span>
             <span className="color-note5">d</span>
             <small>Vapeur</small>
-            <div className="normal-text">
-              ©2020 Nicolas Wurtz
-              <a href="https://twitter.com/NicolasW_GRAOU">
-                <span className="login-logo twitter" />
-              </a>
-              <a href="https://github.com/nicolaswurtz/canardvapeur">
-                <span className="login-logo github" />
-              </a>
-            </div>
           </div>
           <form onSubmit={handleSubmit} className="login-form">
             <input
@@ -74,7 +65,7 @@ export default function Login(props) {
           <div className="error">
             {error !== undefined ? error : null}
           </div>
-          <div className="login-help">
+          <div className="login-help center-text">
             Vous pouvez retrouver votre
             <strong> Steam ID 64 Dec </strong>
             (sous la forme 76591197974395885 par exemple) grâce à
